@@ -139,3 +139,5 @@ REST_FRAMEWORK = {
         'root.app_utils.renderers.renderer.CustomJSONRenderer'
     ],
 }
+
+EMAIL_MATCHING_REGEX=environ.get('EMAIL_MATCHING_REGEX', '.+')

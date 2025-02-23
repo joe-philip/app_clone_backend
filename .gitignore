@@ -8,3 +8,5 @@ __py_cache__
 .env
 env
 .vscode
+!__init__.py
+**/migrations/*.py
